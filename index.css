@@ -1,0 +1,1079 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/montserrat/Montserrat-Regular.otf');
+}
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url('fonts/montserrat/Montserrat-Thin.otf');
+}
+.container {
+    display: flex;
+    width: 980px;
+    height: 620px;
+    overflow: visible;
+}
+.tooltip {
+    position: relative;
+}
+.tooltip .tooltiptext {
+    top: 210px;
+    left: 105%;
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip1 {
+    position: relative;
+}
+.tooltip1 .tooltiptext1 {
+    top: 90px;
+    left: 150%;
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+}
+.tooltip1 .tooltiptext1::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip2 {
+    position: relative;
+}
+.tooltip2 .tooltiptext2 {
+    top: 90px;
+    left: 125%;
+    visibility: hidden;
+    width: 130px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+}
+.tooltip2 .tooltiptext2::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip3 {
+    position: relative;
+}
+.tooltip3 .tooltiptext3 {
+    top: 90px;
+    left: 140%;
+    visibility: hidden;
+    width: 95px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip3:hover .tooltiptext3 {
+    visibility: visible;
+}
+.tooltip3 .tooltiptext3::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip4 {
+    position: relative;
+}
+.tooltip4 .tooltiptext4 {
+    top: 90px;
+    left: 180%;
+    visibility: hidden;
+    width: 95px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip4:hover .tooltiptext4 {
+    visibility: visible;
+}
+.tooltip4 .tooltiptext4::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip5 {
+    position: relative;
+}
+.tooltip5 .tooltiptext5 {
+    top: 240px;
+    left: 75%;
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip5:hover .tooltiptext5 {
+    visibility: visible !important;
+}
+.tooltip5 .tooltiptext5::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip6 {
+    position: relative;
+}
+.tooltip6 .tooltiptext6 {
+    top: 190px;
+    left: 100%;
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip6:hover .tooltiptext6 {
+    visibility: visible !important;
+}
+.tooltip6 .tooltiptext6::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip7 {
+    position: relative;
+}
+.tooltip7 .tooltiptext7 {
+    top: 200px;
+    left: 82%;
+    visibility: hidden;
+    width: 130px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip7:hover .tooltiptext7 {
+    visibility: visible !important;
+}
+.tooltip7 .tooltiptext7::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip8 {
+    position: relative;
+}
+.tooltip8 .tooltiptext8 {
+    top: 200px;
+    left: 83%;
+    visibility: hidden;
+    width: 95px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip8:hover .tooltiptext8 {
+    visibility: visible !important;
+}
+.tooltip8 .tooltiptext8::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip9 {
+    position: relative;
+}
+.tooltip9 .tooltiptext9 {
+    top: 220px;
+    left: 90%;
+    visibility: hidden;
+    width: 95px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip9:hover .tooltiptext9 {
+    visibility: visible !important;
+}
+.tooltip9 .tooltiptext9::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip10 {
+    position: relative;
+}
+.tooltip10 .tooltiptext10 {
+    top: 190px;
+    left: 113%;
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip10:hover .tooltiptext10 {
+    visibility: visible !important;
+}
+.tooltip10 .tooltiptext10::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip11 {
+    position: relative;
+}
+.tooltip11 .tooltiptext11 {
+    top: 135px;
+    left: 150%;
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip11:hover .tooltiptext11 {
+    visibility: visible !important;
+}
+.tooltip11 .tooltiptext11::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip12 {
+    position: relative;
+}
+.tooltip12 .tooltiptext12 {
+    top: 139px;
+    left: 155%;
+    visibility: hidden;
+    width: 130px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip12:hover .tooltiptext12 {
+    visibility: visible !important;
+}
+.tooltip12 .tooltiptext12::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip13 {
+    position: relative;
+}
+.tooltip13 .tooltiptext13 {
+    top: 143px;
+    left: 175%;
+    visibility: hidden;
+    width: 95px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip13:hover .tooltiptext13 {
+    visibility: visible !important;
+}
+.tooltip13 .tooltiptext13::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip14 {
+    position: relative;
+}
+.tooltip14 .tooltiptext14 {
+    top: 147px;
+    left: 196%;
+    visibility: hidden;
+    width: 95px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip14:hover .tooltiptext14 {
+    visibility: visible !important;
+}
+.tooltip14 .tooltiptext14::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip15 {
+    position: relative;
+}
+.tooltip15 .tooltiptext15 {
+    top: 168px;
+    left: 117%;
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip15:hover .tooltiptext15 {
+    visibility: visible !important;
+}
+.tooltip15 .tooltiptext15::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip16 {
+    position: relative;
+}
+.tooltip16 .tooltiptext16 {
+    top: 118px;
+    left: 215%;
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip16:hover .tooltiptext16 {
+    visibility: visible !important;
+}
+.tooltip16 .tooltiptext16::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip17 {
+    position: relative;
+}
+.tooltip17 .tooltiptext17 {
+    top: 125px;
+    left: 160%;
+    visibility: hidden;
+    width: 130px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip17:hover .tooltiptext17 {
+    visibility: visible !important;
+}
+.tooltip17 .tooltiptext17::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip18 {
+    position: relative;
+}
+.tooltip18 .tooltiptext18 {
+    top: 125px;
+    left: 165%;
+    visibility: hidden;
+    width: 95px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip18:hover .tooltiptext18 {
+    visibility: visible !important;
+}
+.tooltip18 .tooltiptext18::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip19 {
+    position: relative;
+}
+.tooltip19 .tooltiptext19 {
+    top: 128px;
+    left: 229%;
+    visibility: hidden;
+    width: 95px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip19:hover .tooltiptext19 {
+    visibility: visible !important;
+}
+.tooltip19 .tooltiptext19::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip20 {
+    position: relative;
+}
+.tooltip20 .tooltiptext20 {
+    top: 95px;
+    left: 195%;
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip20:hover .tooltiptext20 {
+    visibility: visible !important;
+}
+.tooltip20 .tooltiptext20::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip21 {
+    position: relative;
+}
+.tooltip21 .tooltiptext21 {
+    top: 77px;
+    left: 260%;
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip21:hover .tooltiptext21 {
+    visibility: visible !important;
+}
+.tooltip21 .tooltiptext21::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip22 {
+    position: relative;
+}
+.tooltip22 .tooltiptext22 {
+    top: 84px;
+    left: 254%;
+    visibility: hidden;
+    width: 130px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip22:hover .tooltiptext22 {
+    visibility: visible !important;
+}
+.tooltip22 .tooltiptext22::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip23 {
+    position: relative;
+}
+.tooltip23 .tooltiptext23 {
+    top: 78px;
+    left: 248%;
+    visibility: hidden;
+    width: 95px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip23:hover .tooltiptext23 {
+    visibility: visible !important;
+}
+.tooltip23 .tooltiptext23::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.tooltip24 {
+    position: relative;
+}
+.tooltip24 .tooltiptext24 {
+    top: 110px;
+    left: 228%;
+    visibility: hidden;
+    width: 95px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: absolute;
+    font-family: 'Montserrat-Thin';
+    font-size: 18px;
+}
+.tooltip24:hover .tooltiptext24 {
+    visibility: visible !important;
+}
+.tooltip24 .tooltiptext24::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+#meat1 {
+    width: 118px;
+    height: 311px;
+    background: url('images/meat-agriculture.png') no-repeat;
+    background-size: 112px 296px;
+    transform: translateY(17px) translateX(-5px);
+}
+#meat2 {
+    width: 66px;
+    height: 67px;
+    background: url('images/meat-processing.png') no-repeat;
+    background-size: 63px 64px;
+    transform: translateY(-34px) translateX(15px);
+}
+#meat3 {
+    width: 74px;
+    height: 78px;
+    background: url('images/meat-transportation.png') no-repeat;
+    background-size: 70px 74px;
+    transform: translateY(-65px) translateX(20px);
+}
+#meat4 {
+    width: 62px;
+    height: 110px;
+    background: url('images/meat-packaging.png') no-repeat;
+    background-size: 59px 105px;
+    transform: translateY(-93px) translateX(26px);
+}
+#meat5 {
+    width: 44px;
+    height: 75px;
+    background: url('images/meat-store.png') no-repeat;
+    background-size: 42px 71px;
+    transform: translateY(-121px) translateX(33px);
+}
+#meat span {
+    transform: translateY(-89px) translateX(20px);
+}
+#meat {
+    position: relative;
+    z-index: 999;
+    padding-left: 40px;
+    margin-top: 5px;
+}
+span {
+    color: #333333;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Montserrat-Regular';
+}
+#meat1:hover {
+    background-size: 118px 311px;
+}
+#meat2:hover {
+    background-size: 66px 67px;
+}
+#meat3:hover {
+    background-size: 74px 78px;
+}
+#meat4:hover {
+    background-size: 62px 110px;
+}
+#meat5:hover {
+    background-size: 44px 75px;
+}
+#dairy1 {
+    width: 161px;
+    height: 171px;
+        position: relative;
+    background: url('images/dairy-agriculture.png') no-repeat;
+    background-size: 153px 163px;
+}
+#dairy2 {
+    width: 75px;
+    height: 77px;
+    background: url('images/dairy-processing.png') no-repeat;
+    background-size: 71px 73px;
+    transform: translateY(-54px) translateX(41px)
+}
+#dairy3 {
+    width: 89px;
+    height: 96px;
+    background: url('images/dairy-transportation.png') no-repeat;
+    background-size: 85px 91px;
+    transform: translateY(-110px) translateX(43px)
+}
+#dairy4 {
+    width: 81px;
+    height: 99px;
+    background: url('images/dairy-packaging.png') no-repeat;
+    background-size: 77px 94px;
+    transform: translateY(-163px) translateX(48px)
+}
+#dairy5 {
+    width: 70px;
+    height: 108px;
+    background: url('images/dairy-store.png') no-repeat;
+    background-size: 67px 103px;
+    transform: translateY(-205px) translateX(53px)
+}
+#dairy span {
+    transform: translateY(-186px) translateX(51px);
+}
+#dairy1:hover {
+    background-size: 161px 171px;
+}
+#dairy2:hover {
+    background-size: 75px 77px;
+}
+#dairy3:hover {
+    background-size: 89px 96px;
+}
+#dairy4:hover {
+    background-size: 81px 99px;
+}
+#dairy5:hover {
+    background-size: 70px 108px;
+}
+#dairy {
+    position: relative;
+    z-index: 750;
+    margin-top: 192px;
+    padding-left: 40px;
+}
+#grains1 {
+    width: 120px;
+    height: 171px;
+    background: url('images/grains-agriculture.png') no-repeat;
+    background-size: 114px 163px;
+}
+#grains2 {
+    width: 68px;
+    height: 69px;
+    background: url('images/grains-processing.png') no-repeat;
+    background-size: 65px 66px;
+    transform: translateY(-60px) translateX(32px);
+}
+#grains3 {
+    width: 76px;
+    height: 77px;
+    background: url('images/grains-transportation.png') no-repeat;
+    background-size: 72px 73px;
+    transform: translateY(-99px) translateX(15px);
+}
+#grains4 {
+    width: 63px;
+    height: 81px;
+    background: url('images/grains-packaging.png') no-repeat;
+    background-size: 60px 77px;
+    transform: translateY(-134px) translateX(23px);
+}
+#grains5 {
+    width: 53px;
+    height: 69px;
+    background: url('images/grains-store.png') no-repeat;
+    background-size: 50px 66px;
+    transform: translateY(-163px) translateX(28px);
+}
+#grains span {
+    transform: translateY(-138px) translateX(10px);
+}
+#grains {
+    position: relative;
+    z-index: 500;
+    padding-left: 60px;
+    margin-top: 228px;
+}
+#grains1:hover {
+    background-size: 120px 171px;
+}
+#grains2:hover {
+    background-size: 68px 69px;
+}
+#grains3:hover {
+    background-size: 76px 77px;
+}
+#grains4:hover {
+    background-size: 63px 81px;
+}
+#grains5:hover {
+    background-size: 53px 69px;
+}
+#sweets1 {
+    width: 112px;
+    height: 150px;
+    background: url('images/sweets-agriculture.png') no-repeat;
+    background-size: 107px 143px;
+}
+#sweets2 {
+    width: 51px;
+    height: 58px;
+    background: url('images/sweets-processing.png') no-repeat;
+    background-size: 49px 55px;
+    transform: translateY(-54px) translateX(20px);
+}
+#sweets3 {
+    width: 62px;
+    height: 71px;
+    background: url('images/sweets-transportation.png') no-repeat;
+    background-size: 59px 68px;
+    transform: translateY(-91px) translateX(30px);
+}
+#sweets4 {
+    width: 62px;
+    height: 72px;
+    background: url('images/sweets-packaging.png') no-repeat;
+    background-size: 59px 69px;
+    transform: translateY(-122px) translateX(28px);
+}
+#sweets5 {
+    width: 42px;
+    height: 56px;
+    background: url('images/sweets-store.png') no-repeat;
+    background-size: 40px 53px;
+    transform: translateY(-150px) translateX(33px);
+}
+#sweets span {
+    transform: translateY(-124px) translateX(6px)
+}
+#sweets1:hover {
+    background-size: 112px 150px;
+}
+#sweets2:hover {
+    background-size: 51px 58px;
+}
+#sweets3:hover {
+    background-size: 62px 71px;
+}
+#sweets4:hover {
+    background-size: 62px 72px;
+}
+#sweets5:hover {
+    background-size: 42px 56px;
+}
+#sweets {
+    position: relative;
+    z-index: 250;
+    margin-top: 274px;
+    padding-left: 66px;
+}
+#fruitsveg1 {
+    width: 70px;
+    height: 74px;
+    background: url('images/fruitsveg-agriculture.png') no-repeat;
+    background-size: 67px 70px;
+}
+#fruitsveg2 {
+    width: 44px;
+    height: 45px;
+    background: url('images/fruitsveg-processing.png') no-repeat;
+    background-size: 42px 43px;
+    transform: translateY(-33px) translateX(22px);
+}
+#fruitsveg3 {
+    width: 50px;
+    height: 50px;
+    background: url('images/fruitsveg-transportation.png') no-repeat;
+    background-size: 48px 48px;
+    transform: translateY(-61px) translateX(8px);
+}
+#fruitsveg4 {
+    width: 46px;
+    height: 45px;
+    background: url('images/fruitsveg-packaging.png') no-repeat;
+    background-size: 44px 43px;
+    transform: translateY(-89px) translateX(21px);
+}
+#fruitsveg5 {
+    width: 55px;
+    height: 82px;
+    background: url('images/fruitsveg-store.png') no-repeat;
+    background-size: 52px 78px;
+    transform: translateY(-117px) translateX(10px);
+}
+#fruitsveg span {
+    transform: translateY(-92px) translateX(-36px);
+}
+#fruitsveg {
+    position: relative;
+    z-index: 1;
+    margin-top: 353px;
+    padding-left: 73px;
+}
+#fruitsveg1:hover {
+    background-size: 70px 74px;
+}
+#fruitsveg2:hover {
+    background-size: 44px 45px;
+}
+#fruitsveg3:hover {
+    background-size: 50px 50px;
+}
+#fruitsveg4:hover {
+    background-size: 46px 45px;
+}
+#fruitsveg5:hover {
+    background-size: 55px 82px;
+}
+.title {
+    transform: translateX(-235px);
+}
+.first-line {
+    font-family: 'Montserrat-Thin';
+    font-size: 40px;
+}
+.second-line {
+    font-family: 'Montserrat-Regular';
+    font-size: 63px;
+    text-transform: uppercase;
+}
+.third-line {
+    font-family: 'Montserrat-Regular';
+    font-size: 51px;
+    text-transform: uppercase;
+}
